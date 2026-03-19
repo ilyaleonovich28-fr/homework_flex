@@ -46,7 +46,7 @@ header span {
 }
 
 .text-wrapper {
-  flex-basis: 425px;
+  max-width: 425px;
   /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -137,6 +137,7 @@ select:hover,
 .skills {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -206,7 +207,7 @@ footer {
   padding: 26px 0;
   display: flex;
   justify-content: center;
-  align-items: centers;
+  align-items: center;
   /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
